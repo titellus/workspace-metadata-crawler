@@ -14,6 +14,11 @@ For RASTER dataset, only the dataset metadata record is created.
 
 For maps, one record is created for the map and one record for each datasources.
 
+
+This version also support cataloging of ArcGIS MXD maps (using the
+mxd2qgs project https://github.com/titellus/Mxd2Qgs)
+
+
 Data formats
 ------------
 

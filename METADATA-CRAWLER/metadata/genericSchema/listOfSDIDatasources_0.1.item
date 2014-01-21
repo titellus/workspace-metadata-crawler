@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_RNnDQH6xEeO6xrvXXOtQQQ" comment="connectionComment" label="connectionLabel" dataPackage="_RNnDQX6xEeO6xrvXXOtQQQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_RNnDQX6xEeO6xrvXXOtQQQ" dataManager="_RNnDQH6xEeO6xrvXXOtQQQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RNnDQn6xEeO6xrvXXOtQQQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RNnDQ36xEeO6xrvXXOtQQQ" name="count" id="124366" label="count" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_RNnDRH6xEeO6xrvXXOtQQQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RNnDRX6xEeO6xrvXXOtQQQ" name="uuid" id="124367" label="uuid" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_RNnDRn6xEeO6xrvXXOtQQQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RNnDR36xEeO6xrvXXOtQQQ" name="resourceIdentifier" id="124368" label="resourceIdentifier" sourceType="" talendType="id_String">
+        <initialValue xmi:id="_RNnDSH6xEeO6xrvXXOtQQQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

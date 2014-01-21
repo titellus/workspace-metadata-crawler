@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_UvW_8H02EeOoH6V2f21OTA" name="cswGetRecordByResourceIdentifier" dataPackage="_UvXAAn02EeOoH6V2f21OTA" XmlFilePath="/home/francois/Project/2014/eea/contract03/map-archive/resources/csw-get-records-by-resource-identifier.xml" Encoding="UTF-8" inputModel="false">
+    <root xmi:id="_UvW_8X02EeOoH6V2f21OTA" XMLPath="/csw:GetRecords" RelatedColumn="" Attribute="main" Order="1" Type="id_String"/>
+    <root xmi:id="_UvW_8n02EeOoH6V2f21OTA" XMLPath="service" RelatedColumn="" DefaultValue="CSW" Attribute="attri" Order="1" Type="id_String"/>
+    <root xmi:id="_UvW_8302EeOoH6V2f21OTA" XMLPath="version" RelatedColumn="" DefaultValue="2.0.2" Attribute="attri" Order="2" Type="id_String"/>
+    <root xmi:id="_UvW_9H02EeOoH6V2f21OTA" XMLPath="resultType" RelatedColumn="" DefaultValue="results" Attribute="attri" Order="3" Type="id_String"/>
+    <root xmi:id="_UvW_9X02EeOoH6V2f21OTA" XMLPath="csw" RelatedColumn="" DefaultValue="http://www.opengis.net/cat/csw/2.0.2" Attribute="ns" Order="4" Type="id_String"/>
+    <root xmi:id="_UvW_9n02EeOoH6V2f21OTA" XMLPath="/csw:GetRecords/csw:Query" RelatedColumn="" Attribute="main" Order="5" Type="id_String"/>
+    <root xmi:id="_UvW_9302EeOoH6V2f21OTA" XMLPath="typeNames" RelatedColumn="" DefaultValue="csw:Record" Attribute="attri" Order="6" Type="id_String"/>
+    <root xmi:id="_UvW_-H02EeOoH6V2f21OTA" XMLPath="/csw:GetRecords/csw:Query/csw:Constraint" RelatedColumn="" Attribute="main" Order="7" Type="id_String"/>
+    <root xmi:id="_UvW_-X02EeOoH6V2f21OTA" XMLPath="version" RelatedColumn="" DefaultValue="1.1.0" Attribute="attri" Order="8" Type="id_String"/>
+    <root xmi:id="_UvW_-n02EeOoH6V2f21OTA" XMLPath="/csw:GetRecords/csw:Query/csw:Constraint/Filter" RelatedColumn="" Attribute="main" Order="9" Type="id_String"/>
+    <root xmi:id="_UvW_-302EeOoH6V2f21OTA" XMLPath="" RelatedColumn="" DefaultValue="http://www.opengis.net/ogc" Attribute="ns" Order="10" Type="id_String"/>
+    <loop xmi:id="_UvW__H02EeOoH6V2f21OTA" XMLPath="/csw:GetRecords/csw:Query/csw:Constraint/Filter/PropertyIsEqualTo" RelatedColumn="" Attribute="main" Order="11" Type="id_String"/>
+    <loop xmi:id="_UvW__X02EeOoH6V2f21OTA" XMLPath="" RelatedColumn="" DefaultValue="http://www.opengis.net/ogc" Attribute="ns" Order="12" Type="id_String"/>
+    <loop xmi:id="_UvW__n02EeOoH6V2f21OTA" XMLPath="/csw:GetRecords/csw:Query/csw:Constraint/Filter/PropertyIsEqualTo/PropertyName" RelatedColumn="" DefaultValue="ResourceIdentifier" Attribute="branch" Order="13" Type="id_String"/>
+    <loop xmi:id="_UvW__302EeOoH6V2f21OTA" XMLPath="" RelatedColumn="" DefaultValue="http://www.opengis.net/ogc" Attribute="ns" Order="14" Type="id_String"/>
+    <loop xmi:id="_UvXAAH02EeOoH6V2f21OTA" XMLPath="/csw:GetRecords/csw:Query/csw:Constraint/Filter/PropertyIsEqualTo/Literal" RelatedColumn="Literal" Attribute="branch" Order="15" Type="id_String"/>
+    <loop xmi:id="_UvXAAX02EeOoH6V2f21OTA" XMLPath="" RelatedColumn="" DefaultValue="http://www.opengis.net/ogc" Attribute="ns" Order="16" Type="id_String"/>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_UvXAAn02EeOoH6V2f21OTA" name="default" dataManager="_UvW_8H02EeOoH6V2f21OTA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_UvXAA302EeOoH6V2f21OTA" id="_F26lAH02EeOoH6V2f21OTA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_UvXABH02EeOoH6V2f21OTA" name="Literal" label="Literal" talendType="id_String"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

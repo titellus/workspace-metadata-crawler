@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:XmlFileConnection xmi:id="_2-cAgX3HEeOqapnzWUywJA" name="issue_history" dataPackage="_2-cAiH3HEeOqapnzWUywJA" XmlFilePath="/home/francois/Project/2014/eea/contract03/inputs/17151.atom.xml" Encoding="UTF-8">
+    <schema xmi:id="_2-cAgn3HEeOqapnzWUywJA" LimitBoucle="50" AbsoluteXPathQuery="/feed/entry">
+      <schemaTargets xmi:id="_2-cAg33HEeOqapnzWUywJA" RelativeXPathQuery="title" TagName="title"/>
+      <schemaTargets xmi:id="_2-cAhH3HEeOqapnzWUywJA" RelativeXPathQuery="link/@href" TagName="href"/>
+      <schemaTargets xmi:id="_2-cAhX3HEeOqapnzWUywJA" RelativeXPathQuery="updated" TagName="updated"/>
+      <schemaTargets xmi:id="_2-cAhn3HEeOqapnzWUywJA" RelativeXPathQuery="author/name" TagName="name"/>
+      <schemaTargets xmi:id="_2-cAh33HEeOqapnzWUywJA" RelativeXPathQuery="content" TagName="content"/>
+    </schema>
+  </TalendMetadata:XmlFileConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_2-cAiH3HEeOqapnzWUywJA" name="default" dataManager="_2-cAgX3HEeOqapnzWUywJA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_2-cAiX3HEeOqapnzWUywJA" id="_oMYhcH3HEeOqapnzWUywJA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-cAin3HEeOqapnzWUywJA" label="title" length="83" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-cAi33HEeOqapnzWUywJA" label="href" length="44" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-cAjH3HEeOqapnzWUywJA" label="updated" length="20" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-cAjX3HEeOqapnzWUywJA" label="name" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_2-cAjn3HEeOqapnzWUywJA" label="content" length="579" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
